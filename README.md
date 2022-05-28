@@ -1,4 +1,4 @@
-# projekt
+# Project info
 Together with a colleague I'm working on stress recognition using neural networks. Project consists of recording volunteers in a non-stressed environment and stress inducing environment. Video recordings are then processed in order to extract the appropriate data and build our dataset. Built dataset will then be used to train a new model which will be able to predict whether or not a person is stressed based on facial expression.
 
 We are also considering adding another module for stress detection besides facial expressions in order to improve model's accuracy, quantity of motion.
