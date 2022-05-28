@@ -1,8 +1,10 @@
-# projekt
-#VideoSegmenting - izreže testni video u manje segmente prema intervalima napisanim u times.txt fileu
 
-#FacesFromVideo - iz jednog od izrezanih videa izdvojeni su frameovi te iz njih croppana lica i sejvana, zatim su ta lica pretvorena u np arrayeve i spremljena
+Notebooks explanations;
 
-#ModifiedFERdataset - FER2013 dataset je modificiran tako da postoje samo dva labela, expressionless i expressive, espressionless je neutral iz originalnog dataseta dok je expressive sve ostalo, slike i labeli su pretvoreni u np arrayeve i sejvani
+VideoSegmenting - Cuts the sample video into shorter segments according to intervals given in times.txt file.
 
-#BuildingDataset - pomocu podataka iz ModifiedFERdataseta smo istrenirali CNN mrezu, val_loss=0.36, val_acc=0.83, zatim smo loadali podatke iz FacesFromVideo te predictali, dobivene vjerojatnosti smo sortirali te  *POKUSALI* pridruziti odgovarajuce np arrayeve (F) najvecoj i najmanjoj vjerojatnosti, np arrayevi bi zatim bili pretvoreni u slike i sejvani te taj proces bi se ponovio za svaki video sample dok ne izgradimo svoj dataset  
+FacesFromVideo - From each frame in the sample video human face is cropped out and saved. Afterwards, those faces are converted to numpy arrays and saved.
+
+ModifiedFERdataset - FER2013 dataset is modified so that it consists of just two labels, 'expressionless' and 'expressive', 'expressionless' is 'neutral' from the original dataset while 'expressive' includes all the other labels. Images and labels are converted to numpy arrays and saved. 
+
+BuildingDataset - Using data from the ModifiedFERdataset a CNN network is trained (achieved val_acc=0.83, val_loss=0.36). After loading faces data constructed in FacesFromVideo we used trained model to predict. Then, images with highest and lowest predictions (most and least expressive) are saved and will be used to build our dataset for stress recognition.
