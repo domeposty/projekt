@@ -5,7 +5,7 @@ Project consists of recording volunteers in a non-stressed environment and stres
 
 We have carefully determined the conditions in which the recordings take place in order not to obscure the results.
 
-Non stressed environment is achieveed by showing the volunteer a video clip of a beautiful scenery combined with relaxing background music.
+Non stressed environment is achieved by showing the volunteer a video clip of a beautiful scenery combined with relaxing background music.
 
 Stress inducing environment is achieved by showing the volunteer a video clip that consists of series of logical questions (similar to IQ test) along with countdown timer for each problem.
 
