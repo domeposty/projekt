@@ -1,5 +1,5 @@
 # Project info
-Together with a colleague I'm developing a system that detects the presence of stress based on facial expressions and body language.
+Together with a colleague I'm developing a system that detects the presence of stress, based on facial expressions and body language.
 
 Project consists of recording volunteers in a non-stressed environment and stress inducing environment.
 
