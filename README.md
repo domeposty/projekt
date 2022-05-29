@@ -16,7 +16,7 @@ We are also considering adding another module for stress detection besides facia
 
 Current state of the project: Collecting video samples and building the dataset
 
-Notebooks explanations;
+*Notebooks explanations*;
 
 VideoSegmenting - Cuts the sample video into shorter segments according to intervals given in times.txt file.
 
