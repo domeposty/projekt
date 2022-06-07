@@ -1,11 +1,22 @@
 # Project info
-Together with a colleague I'm working on a project about stress recognition using neural networks. Project consists of recording volunteers in a non-stressed environment and stress inducing environment. Video recordings are then processed in order to extract the appropriate data and build our dataset. Built dataset will then be used to train a new model which will be able to predict whether or not a person is stressed based on facial expression.
+Together with a colleague I'm developing a system that detects the presence of stress, based on facial expressions and body language.
 
-We are also considering adding another module for stress detection besides facial expressions in order to improve model's accuracy, quantity of motion.
+Project consists of recording volunteers in a non-stressed environment and stress inducing environment.
+
+We have carefully determined the conditions in which the recordings take place in order not to obscure the results.
+
+Non stressed environment is achieved by showing the volunteer a video clip of a beautiful scenery combined with relaxing background music.
+
+Stress inducing environment is achieved by showing the volunteer a video clip that consists of series of logical questions (similar to IQ test) along with countdown timer for each problem.
+
+
+Video recordings are then processed in order to extract the appropriate data and build our dataset. Built dataset will then be used to train a new model which will be able to predict whether or not a person is stressed based on facial expression.
+
+We are also considering adding another module for stress detection besides facial expressions which would be based on body language, in order to improve model's accuracy.
 
 Current state of the project: Collecting video samples and building the dataset
 
-Notebooks explanations;
+*Notebooks explanations*;
 
 VideoSegmenting - Cuts the sample video into shorter segments according to intervals given in times.txt file.
 
