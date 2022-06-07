@@ -18,7 +18,7 @@ Current state of the project: Collecting video samples and building the dataset
 
 *Notebooks explanations*;
 
-VideoSegmenting - Cuts the sample video into shorter segments according to intervals given in times.txt file.
+VideoSequencing - Cuts the sample videos from chosen path into shorter segments according to intervals given in times.txt file and saves them to chosen path
 
 FacesFromVideo - From each frame in the sample video human face is cropped out and saved. Afterwards, those faces are converted to numpy arrays and saved.
 
